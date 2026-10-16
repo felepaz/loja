@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Simples & Sofisticado</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topo">
+    <div class="marca">
+      <img id="logo" src="images/logo.png" alt="Logo" onerror="this.style.display='none'">
+      <h1 id="nomeLoja">Simples &amp; Sofisticado</h1>
+    </div>
+    <button id="btnCarrinho" class="btn-carrinho" aria-label="Abrir carrinho">
+      Carrinho <span id="contador">0</span>
+    </button>
+  </header>
+
+  <main>
+    <h2 class="titulo-secao">Produtos</h2>
+    <section id="lista" class="grade"></section>
+  </main>
+
+  <div id="fundo" class="fundo"></div>
+  <aside id="gaveta" class="gaveta" aria-label="Carrinho">
+    <div class="gaveta-topo">
+      <h3>Seu pedido</h3>
+      <button id="fechar" class="fechar" aria-label="Fechar">&times;</button>
+    </div>
+    <div id="itens" class="itens"></div>
+    <div class="gaveta-base">
+      <div class="total">Total: <strong id="total">R$ 0,00</strong></div>
+      <input id="nomeCliente" type="text" placeholder="Seu nome">
+      <input id="endereco" type="text" placeholder="Endereço de entrega">
+      <input id="pagamento" type="text" placeholder="Forma de pagamento (Pix, cartão, dinheiro)">
+      <button id="finalizar" class="btn-final">Finalizar pedido pelo WhatsApp</button>
+      <p class="aviso">Ao clicar, o WhatsApp abre com o pedido pronto. É só apertar enviar.</p>
+    </div>
+  </aside>
+
+  <footer class="rodape">&copy; <span id="ano"></span> Simples &amp; Sofisticado</footer>
+
+  <script src="produtos.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

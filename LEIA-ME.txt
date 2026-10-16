@@ -1,0 +1,13 @@
+LOJA SIMPLES & SOFISTICADO
+
+COMO EDITAR
+- produtos.js: seu número de WhatsApp (CONFIG.whatsapp), nomes, preços, descrições e fotos.
+- images/: coloque aqui logo.png e as fotos (produto1.jpg, produto2.jpg...). Os nomes
+  precisam ser iguais aos que estão em produtos.js.
+- style.css: cores e visual (o site é preto e branco; só a logo é colorida).
+
+COMO PUBLICAR NO GITHUB PAGES
+1. Crie um repositório no GitHub (ex.: loja).
+2. Envie os arquivos SOLTOS na raiz (index.html deve ficar na raiz, não dentro de pasta).
+3. Settings > Pages > Branch: main > pasta / (root) > Save.
+4. O link fica: https://SEUUSUARIO.github.io/loja/
